@@ -1,11 +1,12 @@
 // Configuración de Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyCBJReuUaI11pX7Rz9ssYNCGLJoojEg8E8",
-    authDomain: "baloto-a6d7f.firebaseapp.com",
-    projectId: "baloto-a6d7f",
-    storageBucket: "baloto-a6d7f.firebasestorage.app",
-    messagingSenderId: "1004239133954",
-    appId: "1:1004239133954:web:ed2c5cbf4e0a1d18d5b61b"
+    apiKey: "AIzaSyA3oslVWKJQTqpDRkHxTRm14NCtd4oMDn8",
+    authDomain: "dbdigitar-8eafa.firebaseapp.com",
+    projectId: "dbdigitar-8eafa",
+    storageBucket: "dbdigitar-8eafa.firebasestorage.app",
+    messagingSenderId: "600216230142",
+    appId: "1:600216230142:web:5ded152bf7f72c8633edaf",
+    measurementId: "G-396G472VL7"
 };
 
 // Inicializar Firebase
