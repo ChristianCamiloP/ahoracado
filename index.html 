@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego del Ahorcado</h1>
+        <input type="text" id="nombreJugador" placeholder="Ingresa tu nombre">
+        <button id="iniciar">Iniciar Juego</button>
+        
+        <div id="juego" style="display:none;">
+            <p>Palabra: <span id="palabra"></span></p>
+            <p>Errores: <span id="errores">0</span></p>
+            <p>Intentos restantes: <span id="intentosRestantes">6</span></p>
+            <p>Introduce una letra:</p>
+            <input type="text" id="letra" maxlength="1">
+            <button id="adivinada">Adivinar letra</button>
+            <div id="mensaje"></div>
+        </div>
+        
+        <div id="historial">
+            <h2>Historial de Jugadores</h2>
+            <ul id="listaJugadores"></ul>
+        </div>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
